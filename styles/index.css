@@ -2,11 +2,16 @@ body {
     background-color:#CDCDCD;
 }
 
+.chat-container-main {
+    width:600px;
+    padding:10px;
+    margin:0 auto 0 auto;
+}
 
 .chat-box-container {
     background-color:#fff;
     width:580px;
-    margin:0 auto 0 auto;
+    float:left;
 }
 
 /* chat send box ------------*/
