@@ -64,6 +64,9 @@ body {
     margin-top: 20px;
     padding: 10px;
     box-sizing: border-box;
+    max-height: 500px;
+    overflow: scroll;
+    
 }
 
 .refresh-box {
