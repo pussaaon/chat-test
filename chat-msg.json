@@ -1,0 +1,34 @@
+{
+    "chat-msg": [
+        {
+            "name": "IronMan",
+            "icon": "img/user-icon.png",
+            "time": "2015-07-28T15:42:00.689Z",
+            "message": "Ideally, technical debt must be as minimal as possible. The reality is that it increases linearly with the number of sprints completed. How are we to manage technical debt"
+        },
+        {
+            "name": "Hulk",
+            "icon": "img/user-icon.png",
+            "time": "2015-07-28T15:39:00.689Z",
+            "message": "Over the years I've often come across situations in which the team delivered a more complicated final product than necessary or desirable"
+        },
+        {
+            "name": "BlackWidow",
+            "icon": "img/user-icon.png",
+            "time": "2015-07-28T15:32:00.689Z",
+            "message": "Several common traps can affect Scrum teams, and if they go unresolved they can affect the Scrum cycle"
+        },
+        {
+            "name": "Captain",
+            "icon": "img/user-icon.png",
+            "time": "2015-07-28T15:23:00.689Z",
+            "message": "Next time you're looking for a ScrumMaster, consider these two important qualities."
+        },
+        {
+            "name": "HawkEye",
+            "icon": "img/user-icon.png",
+            "time": "2015-07-28T15:10:00.689Z",
+            "message": "I recently been elected to join the Eclipse Architecture Council. The Eclipse Architecture Council serves"
+        }
+    ]
+}
