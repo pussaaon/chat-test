@@ -29,4 +29,40 @@ $(document).ready(function(){
             );
         });
     });
+
+    var userSession = {
+        name: 'WonderGirl',
+        icon: 'img/user-icon.png'
+    };
+
+    $('.btn-send').on('click',function(){
+        if(!!$('.txt-chat').val().trim()) {
+            $( ".chat-msg-list" ).prepend(
+                $('<li>').append([
+                    $('<img>')
+                        .attr('class','user-icon')
+                        .attr('src',userSession.icon),
+                    $('<div>')
+                        .attr('class', 'msg-detail')
+                        .append([
+                            $('<p>')
+                                .attr('class','user-info')
+                                .append([
+                                        $('<span>')
+                                            .attr('class','user-name')
+                                            .append(userSession.name),
+                                        $('<span>')
+                                            .attr('class','send-time')
+                                            .append($.format.date(new Date(), 'HH:mm')),
+                                    ]),
+                            $('<p>')
+                                .attr('class','msg')
+                                .append($('.txt-chat').val())
+                        ])    
+                ])
+            );
+    
+            $('.txt-chat').val('');
+        }
+    });
 });
