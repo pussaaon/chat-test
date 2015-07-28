@@ -82,7 +82,62 @@ body {
     cursor: pointer;
     display: inline-block;
 }
+
+.chat-msg-list {
+    list-style: none;
+    padding: 0;
+    float: left;
+    width: 100%;
 }
+
+/* chat msg items -------------------- */
+
+.chat-msg-list li {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    min-height: 60px;
+    float: left;
+    background-color: #CDCDCD;
+    box-sizing: border-box;
+}
+
+.user-icon {
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+
+.msg-detail {
+    width: 460px;
+    float: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+}
+
+.send-time {
+    font-size: 11px;
+    float: right;
+}
+
+.msg {
+    margin-top: 10px;
+    float: left;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
 
 
 
