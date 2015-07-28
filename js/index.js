@@ -9,12 +9,15 @@ $(document).ready(function(){
     };
 
     $('.btn-send').on('click',function(){
-        if(!!$('.txt-chat').val().trim()) {
+        var msg = $('.txt-chat').val().trim();
+        msg = msg.replace(/<([^ >]+)[^>]*>.*?<\/\1>|<[^\/]+\/>/ig, "");
+        if(!!msg) {
             prependMsgList(
                 userSession.name,
                 userSession.icon,
                 new Date(),
-                $('.txt-chat').val());
+                msg
+            );
             $('.txt-chat').val('');
         }
     });
