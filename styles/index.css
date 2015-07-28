@@ -1,0 +1,21 @@
+body {
+    background-color:#CDCDCD;
+}
+
+
+.chat-box-container {
+    background-color:#fff;
+    width:560px;
+    margin:0 auto 0 auto;
+}
+
+.chat-send-box {
+    margin-top:50px;
+    height:80px;
+}
+
+.chat-msg-box {
+    margin-top:20px;
+    min-height:200px;
+}
+
