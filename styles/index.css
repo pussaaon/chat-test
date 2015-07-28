@@ -58,6 +58,27 @@ body {
 .chat-msg-box {
     margin-top:20px;
     min-height:200px;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+.refresh-box {
+    width:100%;
+    float:left;
+    margin:0;
+}
+
+.btn-refresh {
+    width:100px;
+    height:40px;
+    background-color:#CDCDCD;
+    border:1px solid #CDCDCD;
+    font-size:14px;
+    font-weight:700;
+    float:right;
+    cursor:pointer;
+    display:inline-block;
+}
 }
 
 
