@@ -1,86 +1,86 @@
 body {
-    background-color:#CDCDCD;
+    background-color: #CDCDCD;
 }
 
 .chat-container-main {
-    width:600px;
-    padding:10px;
-    margin:0 auto 0 auto;
+    width: 600px;
+    padding: 10px;
+    margin: 0 auto 0 auto;
 }
 
 .chat-box-container {
-    background-color:#fff;
-    width:580px;
-    float:left;
+    background-color: #fff;
+    width: 580px;
+    float: left;
 }
 
 /* chat send box ------------*/
 
 .chat-send-box {
-    margin-top:50px;
-    height:80px;
+    margin-top: 50px;
+    height: 80px;
     position: relative;
 }
 
 .icon-octo {
-    background:url('../img/octo-icon.png');
-    width:60px;
-    height:60px;
-    top:10px;
-    left:5px;
-    display:block;
+    background: url('../img/octo-icon.png');
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 5px;
+    display: block;
     position: absolute;
 }
 
 .txt-chat {
-    width:380px;
-    height:40px;
-    top:17px;
-    left:75px;
-    display:block;
-    position:absolute;
-    font-size:14px;
-    padding-left:5px;
+    width: 380px;
+    height: 40px;
+    top: 17px;
+    left: 75px;
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    padding-left: 5px;
 }
 
 .btn-send {
-    width:100px;
-    height:40px;
-    background-color:#FAB846;
-    border:1px solid #FAB846;
-    top:20px;
-    right:10px;
-    position:absolute;
-    cursor:pointer;
+    width: 100px;
+    height: 40px;
+    background-color: #FAB846;
+    border: 1px solid #FAB846;
+    top: 20px;
+    right: 10px;
+    position: absolute;
+    cursor: pointer;
     font-size: 14px;
     font-weight: 700;
-    color:#FFF;
+    color: #FFF;
 }
 
 /* chat msg box ----------------*/
 
 .chat-msg-box {
-    margin-top:20px;
-    padding:10px;
-    box-sizing:border-box;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .refresh-box {
-    width:100%;
-    float:left;
-    margin:0;
+    width: 100%;
+    float: left;
+    margin: 0;
 }
 
 .btn-refresh {
-    width:100px;
-    height:40px;
-    background-color:#CDCDCD;
-    border:1px solid #CDCDCD;
-    font-size:14px;
-    font-weight:700;
-    float:right;
-    cursor:pointer;
-    display:inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: #CDCDCD;
+    border: 1px solid #CDCDCD;
+    font-size: 14px;
+    font-weight: 700;
+    float: right;
+    cursor: pointer;
+    display: inline-block;
 }
 }
 
