@@ -19,7 +19,6 @@ body {
 .chat-send-box {
     margin-top:50px;
     height:80px;
-    vertical-align: top;
     position: relative;
 }
 
@@ -62,7 +61,6 @@ body {
 
 .chat-msg-box {
     margin-top:20px;
-    min-height:200px;
     padding:10px;
     box-sizing:border-box;
 }
